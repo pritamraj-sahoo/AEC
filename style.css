@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  font-family: "Sansita Swashed", cursive;
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 160px 50px 500px auto 280px 70px;
+  grid-template-areas:
+    "header  header header"
+    "navbar  navbar navbar"
+    "slider slider news"
+    " main main news"
+    "card1   card2  card3"
+    "footer footer  footer";
+}
+.header {
+  border: 2px solid brgb(246, 248, 246);
+  grid-area: header;
+  background: url(image/a-head.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+nav {
+  border: 2px solid rgb(246, 248, 246);
+  grid-area: navbar;
+  text-transform: uppercase;
+  background: rgb(10, 183, 236);
+}
+nav ul {
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  flex-wrap: wrap;
+  font-weight: 500;
+  justify-content: space-around;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  padding: 3px;
+  text-decoration: underline;
+}
+.slider {
+  border: 2px solid rgb(246, 248, 246);
+  grid-area: slider;
+  background: url(image/ezgif.com-gif-maker.gif) no-repeat;
+  background-size: 100% 100%;
+}
+.news {
+  border: 2px solid rgb(246, 248, 246);
+  grid-area: news;
+  cursor: pointer;
+}
+.news h1 {
+  background-color: #35afaf;
+  padding: 4px 0;
+  color: white;
+  border: 5px double rgb(39, 115, 138);
+  text-align: center;
+}
+.news marquee{
+    text-align: left;
+    padding: 20px;
+
+}
+strong{
+    background: rgb(138, 36, 36);
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news marquee .n1 ,.n2 ,.n3{
+    background:blue;
+    color: white;
+    padding:3px;
+}
+main{
+    border: 2px solid rgb(246, 248, 246);
+    grid-area: main; 
+    padding: 5px;
+}
+main h1{
+    text-align: center;
+    background: #35afaf;
+    color: white;
+    padding: 4px 0;
+  border: 5px double rgb(39, 115, 138);
+}
+main p{
+    padding: 5px;
+}
+main a{
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.card1 {
+  border: 2px solid  rgb(246, 248, 246);
+  grid-area: card1;
+ background: url(image/c4.jpg) no-repeat;
+ background-size: 100% 100%;
+}
+.card2 {
+  border: 2px solid  rgb(246, 248, 246);
+  grid-area: card2;
+  background: url(image/c1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.card3 {
+  border: 2px solid  rgb(246, 248, 246);
+  grid-area: card3;
+background: url(image/c3.jpg) no-repeat;
+background-size: 100% 100%;
+}
+.footer {
+  border: 2px solid rgb(246, 248, 246);
+  grid-area: footer;
+  background: rgb(10, 183, 236);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
