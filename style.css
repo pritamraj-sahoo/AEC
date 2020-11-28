@@ -19,7 +19,7 @@ section {
 .header {
   border: 2px solid brgb(246, 248, 246);
   grid-area: header;
-  background: url(image/a-head.jpg) no-repeat;
+  background: url(a-head.jpg) no-repeat;
   background-size: 100% 100%;
 }
 nav {
@@ -48,7 +48,7 @@ nav ul li a:hover {
 .slider {
   border: 2px solid rgb(246, 248, 246);
   grid-area: slider;
-  background: url(image/ezgif.com-gif-maker.gif) no-repeat;
+  background: url(ezgif.com-gif-maker.gif) no-repeat;
   background-size: 100% 100%;
 }
 .news {
@@ -104,19 +104,19 @@ main a{
 .card1 {
   border: 2px solid  rgb(246, 248, 246);
   grid-area: card1;
- background: url(image/c4.jpg) no-repeat;
+ background: url(c4.jpg) no-repeat;
  background-size: 100% 100%;
 }
 .card2 {
   border: 2px solid  rgb(246, 248, 246);
   grid-area: card2;
-  background: url(image/c1.jpg) no-repeat;
+  background: url(c1.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .card3 {
   border: 2px solid  rgb(246, 248, 246);
   grid-area: card3;
-background: url(image/c3.jpg) no-repeat;
+background: url(c3.jpg) no-repeat;
 background-size: 100% 100%;
 }
 .footer {
